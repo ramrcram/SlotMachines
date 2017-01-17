@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA030DB1DF7FC1500A6F4EB /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA030DA1DF7FC1500A6F4EB /* iCarousel.m */; };
+		0CA030DE1DF8039B00A6F4EB /* CarouselVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA030DD1DF8039B00A6F4EB /* CarouselVC.m */; };
+		0CC397D41DF55EE20007F20D /* WebViewStyleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC397D31DF55EE20007F20D /* WebViewStyleVC.m */; };
+		0CC398051DF562460007F20D /* .eslintrc in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397D61DF562460007F20D /* .eslintrc */; };
+		0CC398061DF562460007F20D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397D71DF562460007F20D /* .gitignore */; };
+		0CC398071DF562460007F20D /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397D81DF562460007F20D /* .travis.yml */; };
+		0CC398081DF562460007F20D /* bower.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397D91DF562460007F20D /* bower.json */; };
+		0CC398091DF562460007F20D /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = 0CC397DA1DF562460007F20D /* CONTRIBUTING.md */; };
+		0CC3980A1DF562460007F20D /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397DC1DF562460007F20D /* style.css */; };
+		0CC3980B1DF562460007F20D /* jquery.slotmachine.css in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397DE1DF562460007F20D /* jquery.slotmachine.css */; };
+		0CC3980C1DF562460007F20D /* jquery.slotmachine.js in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397DF1DF562460007F20D /* jquery.slotmachine.js */; };
+		0CC3980D1DF562460007F20D /* jquery.slotmachine.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397E01DF562460007F20D /* jquery.slotmachine.min.css */; };
+		0CC3980E1DF562460007F20D /* jquery.slotmachine.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397E11DF562460007F20D /* jquery.slotmachine.min.js */; };
+		0CC3980F1DF562460007F20D /* Gruntfile.js in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397E21DF562460007F20D /* Gruntfile.js */; };
+		0CC398101DF562460007F20D /* cookie.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397E41DF562460007F20D /* cookie.png */; };
+		0CC398111DF562460007F20D /* food1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397E51DF562460007F20D /* food1.jpg */; };
+		0CC398121DF562460007F20D /* food2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397E61DF562460007F20D /* food2.jpg */; };
+		0CC398131DF562460007F20D /* food3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397E71DF562460007F20D /* food3.jpg */; };
+		0CC398141DF562460007F20D /* machine.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397E81DF562460007F20D /* machine.png */; };
+		0CC398151DF562460007F20D /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397E91DF562460007F20D /* plane.png */; };
+		0CC398161DF562460007F20D /* slot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397EA1DF562460007F20D /* slot1.png */; };
+		0CC398171DF562460007F20D /* slot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397EB1DF562460007F20D /* slot2.png */; };
+		0CC398181DF562460007F20D /* slot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397EC1DF562460007F20D /* slot3.png */; };
+		0CC398191DF562460007F20D /* slot4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397ED1DF562460007F20D /* slot4.png */; };
+		0CC3981A1DF562460007F20D /* slot5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397EE1DF562460007F20D /* slot5.png */; };
+		0CC3981B1DF562460007F20D /* slot6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397EF1DF562460007F20D /* slot6.png */; };
+		0CC3981C1DF562460007F20D /* triky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397F01DF562460007F20D /* triky.jpg */; };
+		0CC3981D1DF562460007F20D /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397F11DF562460007F20D /* watch.png */; };
+		0CC3981E1DF562460007F20D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397F21DF562460007F20D /* index.html */; };
+		0CC3981F1DF562460007F20D /* jquery-3.1.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397F31DF562460007F20D /* jquery-3.1.1.min.js */; };
+		0CC398201DF562460007F20D /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397F61DF562460007F20D /* jquery.js */; };
+		0CC398211DF562460007F20D /* jquery-loader.js in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397F71DF562460007F20D /* jquery-loader.js */; };
+		0CC398221DF562460007F20D /* qunit.css in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397F91DF562460007F20D /* qunit.css */; };
+		0CC398231DF562460007F20D /* qunit.js in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397FA1DF562460007F20D /* qunit.js */; };
+		0CC398241DF562460007F20D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397FB1DF562460007F20D /* LICENSE */; };
+		0CC398251DF562460007F20D /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397FC1DF562460007F20D /* package.json */; };
+		0CC398261DF562460007F20D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0CC397FD1DF562460007F20D /* README.md */; };
+		0CC398271DF562460007F20D /* slotmachine.jquery.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CC397FE1DF562460007F20D /* slotmachine.jquery.json */; };
+		0CC398281DF562460007F20D /* jquery.slotmachine.css in Resources */ = {isa = PBXBuildFile; fileRef = 0CC398001DF562460007F20D /* jquery.slotmachine.css */; };
+		0CC398291DF562460007F20D /* jquery.slotmachine.js in Resources */ = {isa = PBXBuildFile; fileRef = 0CC398011DF562460007F20D /* jquery.slotmachine.js */; };
+		0CC3982A1DF562460007F20D /* SlotMachine.html in Resources */ = {isa = PBXBuildFile; fileRef = 0CC398031DF562460007F20D /* SlotMachine.html */; };
+		0CC3982B1DF562460007F20D /* SlotMachine_test.js in Resources */ = {isa = PBXBuildFile; fileRef = 0CC398041DF562460007F20D /* SlotMachine_test.js */; };
+		0CC3F2611DF6E98200B48BD7 /* 3ViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3F2601DF6E98200B48BD7 /* 3ViewVC.m */; };
+		0CEF487F1DED6FC300B4679D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF487E1DED6FC300B4679D /* main.m */; };
+		0CEF48821DED6FC300B4679D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF48811DED6FC300B4679D /* AppDelegate.m */; };
+		0CEF48851DED6FC300B4679D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF48841DED6FC300B4679D /* ViewController.m */; };
+		0CEF48881DED6FC300B4679D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF48861DED6FC300B4679D /* Main.storyboard */; };
+		0CEF488A1DED6FC300B4679D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF48891DED6FC300B4679D /* Assets.xcassets */; };
+		0CEF488D1DED6FC300B4679D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF488B1DED6FC300B4679D /* LaunchScreen.storyboard */; };
+		0CEF489F1DED8C2900B4679D /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF48961DED8C2900B4679D /* 01.jpg */; };
+		0CEF48A01DED8C2900B4679D /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF48971DED8C2900B4679D /* 02.jpg */; };
+		0CEF48A11DED8C2900B4679D /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF48981DED8C2900B4679D /* 03.jpg */; };
+		0CEF48A21DED8C2900B4679D /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF48991DED8C2900B4679D /* 04.jpg */; };
+		0CEF48A31DED8C2900B4679D /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF489A1DED8C2900B4679D /* 05.jpg */; };
+		0CEF48A41DED8C2900B4679D /* 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF489B1DED8C2900B4679D /* 06.jpg */; };
+		0CEF48A51DED8C2900B4679D /* 07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF489C1DED8C2900B4679D /* 07.jpg */; };
+		0CEF48A61DED8C2900B4679D /* 08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF489D1DED8C2900B4679D /* 08.jpg */; };
+		0CEF48A71DED8C2900B4679D /* 09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CEF489E1DED8C2900B4679D /* 09.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CA030D91DF7FC1500A6F4EB /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		0CA030DA1DF7FC1500A6F4EB /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		0CA030DC1DF8039B00A6F4EB /* CarouselVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselVC.h; sourceTree = "<group>"; };
+		0CA030DD1DF8039B00A6F4EB /* CarouselVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselVC.m; sourceTree = "<group>"; };
+		0CC397D21DF55EE20007F20D /* WebViewStyleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewStyleVC.h; sourceTree = "<group>"; };
+		0CC397D31DF55EE20007F20D /* WebViewStyleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewStyleVC.m; sourceTree = "<group>"; };
+		0CC397D61DF562460007F20D /* .eslintrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .eslintrc; sourceTree = "<group>"; };
+		0CC397D71DF562460007F20D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0CC397D81DF562460007F20D /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		0CC397D91DF562460007F20D /* bower.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bower.json; sourceTree = "<group>"; };
+		0CC397DA1DF562460007F20D /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		0CC397DC1DF562460007F20D /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		0CC397DE1DF562460007F20D /* jquery.slotmachine.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jquery.slotmachine.css; sourceTree = "<group>"; };
+		0CC397DF1DF562460007F20D /* jquery.slotmachine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.slotmachine.js; sourceTree = "<group>"; };
+		0CC397E01DF562460007F20D /* jquery.slotmachine.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jquery.slotmachine.min.css; sourceTree = "<group>"; };
+		0CC397E11DF562460007F20D /* jquery.slotmachine.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.slotmachine.min.js; sourceTree = "<group>"; };
+		0CC397E21DF562460007F20D /* Gruntfile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Gruntfile.js; sourceTree = "<group>"; };
+		0CC397E41DF562460007F20D /* cookie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookie.png; sourceTree = "<group>"; };
+		0CC397E51DF562460007F20D /* food1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food1.jpg; sourceTree = "<group>"; };
+		0CC397E61DF562460007F20D /* food2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food2.jpg; sourceTree = "<group>"; };
+		0CC397E71DF562460007F20D /* food3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food3.jpg; sourceTree = "<group>"; };
+		0CC397E81DF562460007F20D /* machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machine.png; sourceTree = "<group>"; };
+		0CC397E91DF562460007F20D /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		0CC397EA1DF562460007F20D /* slot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot1.png; sourceTree = "<group>"; };
+		0CC397EB1DF562460007F20D /* slot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot2.png; sourceTree = "<group>"; };
+		0CC397EC1DF562460007F20D /* slot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot3.png; sourceTree = "<group>"; };
+		0CC397ED1DF562460007F20D /* slot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot4.png; sourceTree = "<group>"; };
+		0CC397EE1DF562460007F20D /* slot5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot5.png; sourceTree = "<group>"; };
+		0CC397EF1DF562460007F20D /* slot6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot6.png; sourceTree = "<group>"; };
+		0CC397F01DF562460007F20D /* triky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = triky.jpg; sourceTree = "<group>"; };
+		0CC397F11DF562460007F20D /* watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watch.png; sourceTree = "<group>"; };
+		0CC397F21DF562460007F20D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		0CC397F31DF562460007F20D /* jquery-3.1.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-3.1.1.min.js"; sourceTree = "<group>"; };
+		0CC397F61DF562460007F20D /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		0CC397F71DF562460007F20D /* jquery-loader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-loader.js"; sourceTree = "<group>"; };
+		0CC397F91DF562460007F20D /* qunit.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = qunit.css; sourceTree = "<group>"; };
+		0CC397FA1DF562460007F20D /* qunit.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = qunit.js; sourceTree = "<group>"; };
+		0CC397FB1DF562460007F20D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0CC397FC1DF562460007F20D /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		0CC397FD1DF562460007F20D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0CC397FE1DF562460007F20D /* slotmachine.jquery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = slotmachine.jquery.json; sourceTree = "<group>"; };
+		0CC398001DF562460007F20D /* jquery.slotmachine.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jquery.slotmachine.css; sourceTree = "<group>"; };
+		0CC398011DF562460007F20D /* jquery.slotmachine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.slotmachine.js; sourceTree = "<group>"; };
+		0CC398031DF562460007F20D /* SlotMachine.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SlotMachine.html; sourceTree = "<group>"; };
+		0CC398041DF562460007F20D /* SlotMachine_test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SlotMachine_test.js; sourceTree = "<group>"; };
+		0CC3F25F1DF6E98200B48BD7 /* 3ViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3ViewVC.h; sourceTree = "<group>"; };
+		0CC3F2601DF6E98200B48BD7 /* 3ViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 3ViewVC.m; sourceTree = "<group>"; };
+		0CEF487A1DED6FC300B4679D /* SlotMachines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEF487E1DED6FC300B4679D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CEF48801DED6FC300B4679D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CEF48811DED6FC300B4679D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CEF48831DED6FC300B4679D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CEF48841DED6FC300B4679D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CEF48871DED6FC300B4679D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CEF48891DED6FC300B4679D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CEF488C1DED6FC300B4679D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CEF488E1DED6FC300B4679D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEF48961DED8C2900B4679D /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		0CEF48971DED8C2900B4679D /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		0CEF48981DED8C2900B4679D /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		0CEF48991DED8C2900B4679D /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		0CEF489A1DED8C2900B4679D /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		0CEF489B1DED8C2900B4679D /* 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06.jpg; sourceTree = "<group>"; };
+		0CEF489C1DED8C2900B4679D /* 07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 07.jpg; sourceTree = "<group>"; };
+		0CEF489D1DED8C2900B4679D /* 08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08.jpg; sourceTree = "<group>"; };
+		0CEF489E1DED8C2900B4679D /* 09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CEF48771DED6FC300B4679D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA030D81DF7FC1500A6F4EB /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				0CA030D91DF7FC1500A6F4EB /* iCarousel.h */,
+				0CA030DA1DF7FC1500A6F4EB /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		0CC397D51DF562460007F20D /* SlotMachine_HTML */ = {
+			isa = PBXGroup;
+			children = (
+				0CC397D61DF562460007F20D /* .eslintrc */,
+				0CC397D71DF562460007F20D /* .gitignore */,
+				0CC397D81DF562460007F20D /* .travis.yml */,
+				0CC397D91DF562460007F20D /* bower.json */,
+				0CC397DA1DF562460007F20D /* CONTRIBUTING.md */,
+				0CC397DB1DF562460007F20D /* css */,
+				0CC397DD1DF562460007F20D /* dist */,
+				0CC397E21DF562460007F20D /* Gruntfile.js */,
+				0CC397E31DF562460007F20D /* img */,
+				0CC397F21DF562460007F20D /* index.html */,
+				0CC397F31DF562460007F20D /* jquery-3.1.1.min.js */,
+				0CC397F41DF562460007F20D /* libs */,
+				0CC397FB1DF562460007F20D /* LICENSE */,
+				0CC397FC1DF562460007F20D /* package.json */,
+				0CC397FD1DF562460007F20D /* README.md */,
+				0CC397FE1DF562460007F20D /* slotmachine.jquery.json */,
+				0CC397FF1DF562460007F20D /* src */,
+				0CC398021DF562460007F20D /* test */,
+			);
+			path = SlotMachine_HTML;
+			sourceTree = "<group>";
+		};
+		0CC397DB1DF562460007F20D /* css */ = {
+			isa = PBXGroup;
+			children = (
+				0CC397DC1DF562460007F20D /* style.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		0CC397DD1DF562460007F20D /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				0CC397DE1DF562460007F20D /* jquery.slotmachine.css */,
+				0CC397DF1DF562460007F20D /* jquery.slotmachine.js */,
+				0CC397E01DF562460007F20D /* jquery.slotmachine.min.css */,
+				0CC397E11DF562460007F20D /* jquery.slotmachine.min.js */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		0CC397E31DF562460007F20D /* img */ = {
+			isa = PBXGroup;
+			children = (
+				0CC397E41DF562460007F20D /* cookie.png */,
+				0CC397E51DF562460007F20D /* food1.jpg */,
+				0CC397E61DF562460007F20D /* food2.jpg */,
+				0CC397E71DF562460007F20D /* food3.jpg */,
+				0CC397E81DF562460007F20D /* machine.png */,
+				0CC397E91DF562460007F20D /* plane.png */,
+				0CC397EA1DF562460007F20D /* slot1.png */,
+				0CC397EB1DF562460007F20D /* slot2.png */,
+				0CC397EC1DF562460007F20D /* slot3.png */,
+				0CC397ED1DF562460007F20D /* slot4.png */,
+				0CC397EE1DF562460007F20D /* slot5.png */,
+				0CC397EF1DF562460007F20D /* slot6.png */,
+				0CC397F01DF562460007F20D /* triky.jpg */,
+				0CC397F11DF562460007F20D /* watch.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		0CC397F41DF562460007F20D /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				0CC397F51DF562460007F20D /* jquery */,
+				0CC397F71DF562460007F20D /* jquery-loader.js */,
+				0CC397F81DF562460007F20D /* qunit */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		0CC397F51DF562460007F20D /* jquery */ = {
+			isa = PBXGroup;
+			children = (
+				0CC397F61DF562460007F20D /* jquery.js */,
+			);
+			path = jquery;
+			sourceTree = "<group>";
+		};
+		0CC397F81DF562460007F20D /* qunit */ = {
+			isa = PBXGroup;
+			children = (
+				0CC397F91DF562460007F20D /* qunit.css */,
+				0CC397FA1DF562460007F20D /* qunit.js */,
+			);
+			path = qunit;
+			sourceTree = "<group>";
+		};
+		0CC397FF1DF562460007F20D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0CC398001DF562460007F20D /* jquery.slotmachine.css */,
+				0CC398011DF562460007F20D /* jquery.slotmachine.js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0CC398021DF562460007F20D /* test */ = {
+			isa = PBXGroup;
+			children = (
+				0CC398031DF562460007F20D /* SlotMachine.html */,
+				0CC398041DF562460007F20D /* SlotMachine_test.js */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		0CEF48711DED6FC300B4679D = {
+			isa = PBXGroup;
+			children = (
+				0CEF487C1DED6FC300B4679D /* SlotMachines */,
+				0CEF487B1DED6FC300B4679D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CEF487B1DED6FC300B4679D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CEF487A1DED6FC300B4679D /* SlotMachines.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CEF487C1DED6FC300B4679D /* SlotMachines */ = {
+			isa = PBXGroup;
+			children = (
+				0CA030D81DF7FC1500A6F4EB /* iCarousel */,
+				0CC397D51DF562460007F20D /* SlotMachine_HTML */,
+				0CEF48951DED8C2900B4679D /* ImgaeGallery */,
+				0CEF48801DED6FC300B4679D /* AppDelegate.h */,
+				0CEF48811DED6FC300B4679D /* AppDelegate.m */,
+				0CEF48831DED6FC300B4679D /* ViewController.h */,
+				0CEF48841DED6FC300B4679D /* ViewController.m */,
+				0CEF48861DED6FC300B4679D /* Main.storyboard */,
+				0CEF48891DED6FC300B4679D /* Assets.xcassets */,
+				0CEF488B1DED6FC300B4679D /* LaunchScreen.storyboard */,
+				0CEF488E1DED6FC300B4679D /* Info.plist */,
+				0CEF487D1DED6FC300B4679D /* Supporting Files */,
+				0CC397D21DF55EE20007F20D /* WebViewStyleVC.h */,
+				0CC397D31DF55EE20007F20D /* WebViewStyleVC.m */,
+				0CC3F25F1DF6E98200B48BD7 /* 3ViewVC.h */,
+				0CC3F2601DF6E98200B48BD7 /* 3ViewVC.m */,
+				0CA030DC1DF8039B00A6F4EB /* CarouselVC.h */,
+				0CA030DD1DF8039B00A6F4EB /* CarouselVC.m */,
+			);
+			path = SlotMachines;
+			sourceTree = "<group>";
+		};
+		0CEF487D1DED6FC300B4679D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CEF487E1DED6FC300B4679D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CEF48951DED8C2900B4679D /* ImgaeGallery */ = {
+			isa = PBXGroup;
+			children = (
+				0CEF48961DED8C2900B4679D /* 01.jpg */,
+				0CEF48971DED8C2900B4679D /* 02.jpg */,
+				0CEF48981DED8C2900B4679D /* 03.jpg */,
+				0CEF48991DED8C2900B4679D /* 04.jpg */,
+				0CEF489A1DED8C2900B4679D /* 05.jpg */,
+				0CEF489B1DED8C2900B4679D /* 06.jpg */,
+				0CEF489C1DED8C2900B4679D /* 07.jpg */,
+				0CEF489D1DED8C2900B4679D /* 08.jpg */,
+				0CEF489E1DED8C2900B4679D /* 09.jpg */,
+			);
+			path = ImgaeGallery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CEF48791DED6FC300B4679D /* SlotMachines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEF48911DED6FC300B4679D /* Build configuration list for PBXNativeTarget "SlotMachines" */;
+			buildPhases = (
+				0CEF48761DED6FC300B4679D /* Sources */,
+				0CEF48771DED6FC300B4679D /* Frameworks */,
+				0CEF48781DED6FC300B4679D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlotMachines;
+			productName = SlotMachines;
+			productReference = 0CEF487A1DED6FC300B4679D /* SlotMachines.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CEF48721DED6FC300B4679D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Trellisys;
+				TargetAttributes = {
+					0CEF48791DED6FC300B4679D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5KQDYPKV9U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0CEF48751DED6FC300B4679D /* Build configuration list for PBXProject "SlotMachines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CEF48711DED6FC300B4679D;
+			productRefGroup = 0CEF487B1DED6FC300B4679D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CEF48791DED6FC300B4679D /* SlotMachines */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CEF48781DED6FC300B4679D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC398241DF562460007F20D /* LICENSE in Resources */,
+				0CC398071DF562460007F20D /* .travis.yml in Resources */,
+				0CC398081DF562460007F20D /* bower.json in Resources */,
+				0CC398051DF562460007F20D /* .eslintrc in Resources */,
+				0CC3980C1DF562460007F20D /* jquery.slotmachine.js in Resources */,
+				0CC398171DF562460007F20D /* slot2.png in Resources */,
+				0CC3981E1DF562460007F20D /* index.html in Resources */,
+				0CEF48A51DED8C2900B4679D /* 07.jpg in Resources */,
+				0CC398211DF562460007F20D /* jquery-loader.js in Resources */,
+				0CC398181DF562460007F20D /* slot3.png in Resources */,
+				0CC3982A1DF562460007F20D /* SlotMachine.html in Resources */,
+				0CEF48A11DED8C2900B4679D /* 03.jpg in Resources */,
+				0CC398141DF562460007F20D /* machine.png in Resources */,
+				0CC398121DF562460007F20D /* food2.jpg in Resources */,
+				0CEF48A61DED8C2900B4679D /* 08.jpg in Resources */,
+				0CC398221DF562460007F20D /* qunit.css in Resources */,
+				0CC3981D1DF562460007F20D /* watch.png in Resources */,
+				0CC398281DF562460007F20D /* jquery.slotmachine.css in Resources */,
+				0CEF48A01DED8C2900B4679D /* 02.jpg in Resources */,
+				0CC3982B1DF562460007F20D /* SlotMachine_test.js in Resources */,
+				0CEF48A31DED8C2900B4679D /* 05.jpg in Resources */,
+				0CC3981A1DF562460007F20D /* slot5.png in Resources */,
+				0CC398291DF562460007F20D /* jquery.slotmachine.js in Resources */,
+				0CC3981F1DF562460007F20D /* jquery-3.1.1.min.js in Resources */,
+				0CC398111DF562460007F20D /* food1.jpg in Resources */,
+				0CC398151DF562460007F20D /* plane.png in Resources */,
+				0CC398271DF562460007F20D /* slotmachine.jquery.json in Resources */,
+				0CC398131DF562460007F20D /* food3.jpg in Resources */,
+				0CEF48A41DED8C2900B4679D /* 06.jpg in Resources */,
+				0CEF48A71DED8C2900B4679D /* 09.jpg in Resources */,
+				0CC398191DF562460007F20D /* slot4.png in Resources */,
+				0CC3980B1DF562460007F20D /* jquery.slotmachine.css in Resources */,
+				0CC398231DF562460007F20D /* qunit.js in Resources */,
+				0CC3980D1DF562460007F20D /* jquery.slotmachine.min.css in Resources */,
+				0CC398061DF562460007F20D /* .gitignore in Resources */,
+				0CC398161DF562460007F20D /* slot1.png in Resources */,
+				0CC3981B1DF562460007F20D /* slot6.png in Resources */,
+				0CEF488D1DED6FC300B4679D /* LaunchScreen.storyboard in Resources */,
+				0CEF488A1DED6FC300B4679D /* Assets.xcassets in Resources */,
+				0CC3980A1DF562460007F20D /* style.css in Resources */,
+				0CEF48A21DED8C2900B4679D /* 04.jpg in Resources */,
+				0CC398251DF562460007F20D /* package.json in Resources */,
+				0CC398101DF562460007F20D /* cookie.png in Resources */,
+				0CC398201DF562460007F20D /* jquery.js in Resources */,
+				0CC3980E1DF562460007F20D /* jquery.slotmachine.min.js in Resources */,
+				0CC3980F1DF562460007F20D /* Gruntfile.js in Resources */,
+				0CEF489F1DED8C2900B4679D /* 01.jpg in Resources */,
+				0CEF48881DED6FC300B4679D /* Main.storyboard in Resources */,
+				0CC3981C1DF562460007F20D /* triky.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CEF48761DED6FC300B4679D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC398261DF562460007F20D /* README.md in Sources */,
+				0CEF48851DED6FC300B4679D /* ViewController.m in Sources */,
+				0CEF48821DED6FC300B4679D /* AppDelegate.m in Sources */,
+				0CC398091DF562460007F20D /* CONTRIBUTING.md in Sources */,
+				0CC397D41DF55EE20007F20D /* WebViewStyleVC.m in Sources */,
+				0CA030DB1DF7FC1500A6F4EB /* iCarousel.m in Sources */,
+				0CA030DE1DF8039B00A6F4EB /* CarouselVC.m in Sources */,
+				0CEF487F1DED6FC300B4679D /* main.m in Sources */,
+				0CC3F2611DF6E98200B48BD7 /* 3ViewVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CEF48861DED6FC300B4679D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CEF48871DED6FC300B4679D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CEF488B1DED6FC300B4679D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CEF488C1DED6FC300B4679D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CEF488F1DED6FC300B4679D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CEF48901DED6FC300B4679D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CEF48921DED6FC300B4679D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KQDYPKV9U;
+				INFOPLIST_FILE = SlotMachines/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.trellisys.SlotMachines;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CEF48931DED6FC300B4679D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KQDYPKV9U;
+				INFOPLIST_FILE = SlotMachines/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.trellisys.SlotMachines;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CEF48751DED6FC300B4679D /* Build configuration list for PBXProject "SlotMachines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEF488F1DED6FC300B4679D /* Debug */,
+				0CEF48901DED6FC300B4679D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CEF48911DED6FC300B4679D /* Build configuration list for PBXNativeTarget "SlotMachines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEF48921DED6FC300B4679D /* Debug */,
+				0CEF48931DED6FC300B4679D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CEF48721DED6FC300B4679D /* Project object */;
+}
